@@ -51,7 +51,6 @@
       <script>
           var URLgetDataGeoJSON = '{{ route('peta.getDataGeoJSON') }}';
       </script>
-      {{-- <script type='text/javascript' src='https://leafletjs.com/examples/choropleth/us-states.js'></script> --}}
       <script type='text/javascript' src='/js/maps/peta.js'></script>
    </body>
 </html>

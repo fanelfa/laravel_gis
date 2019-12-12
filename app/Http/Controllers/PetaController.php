@@ -23,13 +23,5 @@ class PetaController extends Controller
         $dataGeo = Peta::getGeoJSON();
 
         return $dataGeo;
-
-        // $data_mentah = DB::table('indonesia_kab')
-        //     ->select(DB::raw('provinsi , kabupaten_ AS kabupaten , jml_hilang , ST_AsGeoJSON(SHAPE) AS geometry'))
-        //     ->where('provinsi', '=', ['Jawa Timur'])
-        //     ->first();
-
-        // dd(json_decode($data_mentah->geometry)->coordinates);
-
     }
 }
